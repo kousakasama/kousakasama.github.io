@@ -1695,6 +1695,16 @@ pre .javascript .function {
 #QR {
   padding-top: 20px;
 }
+#wechat:hover p {
+  animation: roll 0.1s 3 linear;
+  -webkit-animation: roll 0.1s 3 linear;
+  -moz-animation: roll 0.1s 3 linear;
+}
+#alipay:hover p {
+  animation: roll 0.1s 3 linear;
+  -webkit-animation: roll 0.1s 3 linear;
+  -moz-animation: roll 0.1s 3 linear;
+}
 #QR a {
   border: 0;
 }
@@ -1959,7 +1969,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #5ec600;
+  background: #cbd4ff;
 }
 .links-of-blogroll {
   font-size: 13px;
